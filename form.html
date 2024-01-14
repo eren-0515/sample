@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Master Bread</title>
+        <meta name="description" content="岐阜で活躍するフリーランスウエブデザイナー兼ネットワークエンジニア、Erenのポートフォリオです。">
+        <meta name="keywords" content="Desigenr,Web,Bread">
+        <meta name="author" content="Eren Honda">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <h1 a href="#">Eren Honda</h1>
+            <h2>Designer</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">GELLERY</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <div>
+            <section>
+                <h1>CONTACT</h1>
+<!--ここからフォーム-->
+                <form>
+                    <fieldset>
+                        <legend>基本情報</legend>
+                        <label for="name">お名前:</label>
+                        <input id="name" type="text" name="お名前"><br>
+                        
+                        <label for="mail">メール：</label>
+                        <input id="mail" type="text" name="メール"><br>
+
+                        <label>区分</label>
+                        <input id="personal" type="radio" name="区分" value="個人の方">
+                        <label for="personal">個人の方</label>
+
+                        <input id="entity" type="radio" name="区分" value="企業の方">
+                        <label for="entity">企業の方</label>
+
+                    </fieldset>
+                        <legend>お問い合わせ本文</legend>
+                        
+                        <label for="category">お問い合わせの種類</label>
+                        <select id="category" name="お問い合わせの種類"></select>
+                           
+                            <optgroup label="業務について">
+                            <option>デザイン業務について</option>
+                            <option selected="selected">講師業について</option>
+                            <option>DTP作成について</option>
+                            <option>プロダクトデザインについて</option>
+                            </optgroup>
+
+                            <optgroup label="制作について">
+                            <option>支払いについて</option>
+                            <option selected="selected">おいしいパンについて</option>
+                            <option>納期について</option>
+                            <option>その他</option>
+                            </optgroup>
+                        <label for="write">本文：</label>
+                        <textarea name="本文" placeholder="お問い合わせ内容など、自由にお問い合わせください。" id="write"></textarea>
+
+                        <label>確認</label>
+                        <input id="yes" type="checkbox" name="確認" value="規約に同意します">
+                        <label for="yes">規約に同意します</label>
+                    <!--以下は送信ボタン-->
+                    <input type="submit" value="送るぜ">
+                    <input type="reset" value="初期化する">
+                </form>
+            </section>
+        </div>
+
+<!--ここからフッター-->
+        <footer>
+            <p>&copy; 2024 Eren Honda</p>
+        </footer>
+        
+
+    </body>
