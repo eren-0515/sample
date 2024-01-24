@@ -42,6 +42,7 @@ div p{
 
 div h2{
     font-weight: normal;
+    text-decoration: line-through;
 }
 
 
@@ -81,3 +82,15 @@ code {
     display: block;
     margin-top: 10px;
 }
+
+/*文章の行間を設定する方法*/
+div p{
+    line-height: normal;
+}
+
+/*一括でフォントを設定する方法
+h1{
+    font: bold 80px/80px "lobster"; 
+    　　　太さ　フォントサイズ　行間　種類
+}
+*/
